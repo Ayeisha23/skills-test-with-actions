@@ -65,5 +65,6 @@ def test_get_nth_fibonacci_ten():
 
     # Act
     result = get_nth_fibonacci(n)
-    
-assert result == 89
+
+    # Assert
+    assert result == 89
